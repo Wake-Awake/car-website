@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+header{
+    width: 100%;
+    height: 120lvh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.8)), url("front\ \(2\).jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+nav{
+    width: 200px;
+}
+.navigate{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+#icon{
+    position: absolute;
+    background-color: aliceblue;
+    color: black;
+  font-size: 25px;
+  padding: 3px 10px;
+  right: 180px;
+  top: 10px;
+    border-radius: 2px;
+    margin-right: 12px;
+    margin-top:0px;
+}
+#icon :hover{
+    cursor: pointer;
+}
+#b4{
+    margin-right: 200px;
+}
+.navigate button{
+    margin-bottom: 2px;
+    border: none;
+    background-color: rgb(219, 147, 13);
+    padding: 10px 14px;
+    border-radius: 2px;
+    margin-right: 40px;
+}
+.navigate :hover{
+    cursor: pointer;
+}
+.navigate a{
+text-decoration: none;
+color: aliceblue;
+right: 200px;
+padding-right: 30px ;
+}
+
+.name{
+    position: absolute;
+}
+#name-1{
+ font-size: 40px;
+ color: aliceblue;
+ padding-left: 40px;
+ width: 200px;
+ padding-top: 2px;
+}
+.para{
+    position: absolute;
+    bottom: 8%;
+    width: 50%;
+    left: 50px;
+}
+#b5{
+    margin-right: 4px;
+    padding: 10px 20px;
+    border: none;
+}
+#b6{
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+#b6:hover{
+    background-color: rgb(219, 147, 13);
+    color: black;
+}
+.para1{
+    color: aliceblue;
+}
+.para1 button{
+    padding:5px 20px ;
+    border-radius: 2px;
+    background-color: rgb(207, 139, 12);
+}
+.para1 button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+}
+.para1 #p1{
+    margin-bottom: 15px;
+    font-size: 20px;
+    word-spacing: 8px;
+}
+.para1 #p2{
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 100;
+}
+.section1{
+    width: 100%;
+    height: 100lvh;
+  background-color:rgb(250, 246, 240);
+    position: relative;
+}
+.para2{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 45%;
+}
+.para2 p{
+    font-size: 35px;
+}
+#img{
+    position: absolute;
+    bottom: 23%;
+    left: 5%;
+    width: 38%;
+}
+.para3{
+    position: absolute;
+    right: 0%;
+    width: 35%;
+    top: 5%;
+    right: 4%;
+    font-size: 20px;
+    font-weight: 200;
+    word-spacing: 3px;
+    text-align:justify;
+}
+.para4{
+    position: absolute;
+    right: 0%;
+    width: 35%;
+    right: 4%;
+    top: 26%;
+    font-size: 20px;
+    font-weight: 200;
+    word-spacing: 3px;
+    text-align:justify;
+}
+#line{
+    position: absolute;
+    top: 30%;
+    right: 0;
+    border-bottom: 2px grey solid;
+}
+.para5{
+    right: 0;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+.num{
+   font-size: 50px;
+    text-align:start;
+    margin-bottom: 23px;
+    }
+.num1{
+    font-size: 18px;
+    margin-right: 10px;
+    }
+.para6{
+    width: 280px;
+    text-align: start;
+}
+.para7{
+    width: 280px;
+}
+.para7 .num1{
+    margin-left: 15px;
+}
+.para6 .num1{
+    margin-right: 15px;
+}
+.para7 .num{
+    margin-left: 15px;
+}
+.section2{
+    width: 100%;
+    height: 30lvh;
+    background-color:rgb(250, 246, 240);
+    position: relative;
+}
+.para8{
+    top: 7%;
+    position: absolute;
+    text-align: center;
+    left: 36%;
+}
+.para9{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.para10{
+    font-size: 22px;
+}
+.section3{
+    position: relative;
+    width: 110%;
+    height: 100lvh;
+    background-color: rgb(254, 246, 236);
+    }
+.container{
+   position: absolute;
+    gap: 30px;
+    display: flex;
+flex-wrap: wrap;
+left:5%;
+   }
+.head1{
+    font-size: 25px;
+}
+.head2{
+    font-size: 18px;
+}
+#img3{
+    width: 380px;
+}
+.section4{
+    width: 100%;
+    height: 100lvh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0)), url("porsche_911.jpg");
+    background-position: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-blend-mode: darken;
+}
+.section4 .para{
+ position: absolute;
+   color: aliceblue;
+    top: 20px;
+}
+.p1{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.p2{
+font-size: 20px;
+word-spacing: 4px;
+}
+.section5{
+    width: 100%;
+    height: 80lvh;
+    background-color: rgb(254, 246, 236);
+    position: relative;
+}
+.dive{
+    position: absolute;
+    top:80px;
+    left:60px;
+}
+.pa1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.pa2{
+    font-size: 20px;
+word-spacing: 2px;
+}
+.see{
+    position: absolute;
+    left: 60px;
+    bottom: 100px;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color:red;
+}
+.image{
+    position: absolute;
+    display: flex;
+    right: 100px;
+    top: 130px;
+    gap: 10px;
+}
+.bgimg{
+   
+    width: 180px;
+}
+#img02{
+    margin-top: 20px;
+}
+#img03{
+    margin-top: 40px;
+}
+.i1{
+    height: 270px;
+}
+.i3{
+    height: 270px;
+}
+.i4{
+    height: 270px;
+}
+.i5{
+    height: 270px;
+}
+.i6{
+    height: 270px;
+}
+.he1{
+    font-size: 18px;
+    padding-bottom: 4px;
+    font-weight: 550;
+}
+.he2{
+    font-size: 15px;
+    word-spacing: 2px;
+    font-weight: 100;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 80lvh;
+    background-color: rgb(46, 43, 43);
+}
+.end{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    color: aliceblue;
+    font-size: 50px;
+}
+#right{
+    position: absolute;
+    top: 70px;
+    right: 500px;
+    color: aliceblue;
+    font-size: 35px;
+}
+.end2{
+    position: absolute;
+     top: 42%;
+     left: 45%;
+}
+.end2 a{
+    display:block;
+    padding: 5px;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+}
+.end1{
+    position: absolute;
+    top: 40%;
+    left: 7%;
+}
+.paa1{
+font-size: 45px;
+color: rgba(187, 124, 8, 0.747);
+padding-bottom: 15px;
+
+}
+.paa2{
+    font-size: 30px;
+    color: antiquewhite;
+    word-spacing: 2px;
+}
+.pad1{
+    font-size: 30px;
+    color:rgb(243, 200, 143);
+    padding-bottom: 20px;
+}
+.end3{
+    position: absolute;
+    right: 30%;
+    top: 42%;
+}
+.end3 a{
+    display: block;
+}
+.pad2{
+    font-size: 30px;
+    color:rgb(243, 200, 143);
+    padding-bottom: 20px;
+}
+.end3 a{
+    display:block;
+    padding: 5px;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+}
+.end4{
+    position: absolute;
+    right: 10%;
+    top: 42%;
+}
+.pad3{
+    font-size: 30px;
+    color:rgb(243, 200, 143);
+    padding-bottom: 20px;
+}
+.pad4{padding: 5px;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+    word-spacing: 2px;
+}
